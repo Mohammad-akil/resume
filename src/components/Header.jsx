@@ -9,7 +9,7 @@ const Header = () => {
       <p className="font-semibold text-lg">
         https://mohammad-akil.netlify.app/
       </p>
-      <p>mohammadakilshakirhusain@gmail.com | 7600811783</p>
+      <p>mohammadakilshakirhusain@gmail.com | number</p>
     </div>
   );
 };
