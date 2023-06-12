@@ -5,7 +5,7 @@ const RightChild = () => {
   const midHeading = "font-semibold text-xl";
   const lowHeading = "font-medium";
   return (
-    <div className={`flex flex-col gap-4  w-3/5`}>
+    <div className={`flex flex-col gap-8  w-3/5`}>
       <section>
         <p className={`${topHeading}`}>Experience</p>
         <p className="mt-1">
@@ -77,7 +77,9 @@ const RightChild = () => {
 
       <section>
         <p className={topHeading}>Portfolio</p>
-        <span className={lowHeading}>Checkout : </span>
+        <span className={lowHeading}>
+          <span className={`${midHeading} ml-5 mt-2`}>Checkout</span> :{" "}
+        </span>
         <a href="https://mohammad-akil.netlify.app/">
           https://mohammad-akil.netlify.app/
         </a>

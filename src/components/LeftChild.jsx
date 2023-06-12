@@ -6,7 +6,7 @@ const LeftChild = () => {
   const lowHeading = "font-medium";
 
   return (
-    <div className={`flex flex-col gap-3 w-2/5`}>
+    <div className={`flex flex-col gap-8 w-2/5`}>
       <div className="flex flex-col gap-2">
         <p className={`${topHeading}`}>EDUCATION</p>
 

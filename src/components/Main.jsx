@@ -4,7 +4,7 @@ import LeftChild from "./LeftChild";
 
 const Main = () => {
   return (
-    <div className="flex gap-2 px-7 mt-3 mb-10">
+    <div className="flex gap-2 px-10 mt-5 mb-10">
       <LeftChild />
       <RightChild />
     </div>
