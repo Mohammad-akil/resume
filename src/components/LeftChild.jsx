@@ -55,7 +55,7 @@ const LeftChild = () => {
           <p className="font-light">
             LinkedIn://{" "}
             <span className="font-semibold">
-              https://www.linkedin.com/in/mohammad-akil-%F0%9F%8C%90-3b0438203/
+              https://www.linkedin.com/in/mohammad-akil-3b0438203/
             </span>
           </p>
         </div>
