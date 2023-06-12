@@ -1,12 +1,12 @@
 import React from "react";
 
-const LeftChild = ({ basis }) => {
+const LeftChild = () => {
   const topHeading = "text-3xl font-thin text-gray-600 uppercase";
   const midHeading = "font-semibold text-xl";
   const lowHeading = "font-medium";
 
   return (
-    <div className={`flex flex-col gap-3 basis-${basis} w-1/3`}>
+    <div className={`flex flex-col gap-3 w-2/5`}>
       <div className="flex flex-col gap-2">
         <p className={`${topHeading}`}>EDUCATION</p>
 
@@ -79,7 +79,7 @@ const LeftChild = ({ basis }) => {
 
       <div>
         <p className={`${midHeading}`}>Other</p>
-        <p>Git • Vs code • Thunder Client • Github • Rest api</p>
+        <p>Git • Vs code • Thunder Client • Github • Rest api • Netlify</p>
       </div>
     </div>
   );
